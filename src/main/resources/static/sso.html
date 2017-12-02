@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+    <script src="keycloak.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-cookies.js"></script>
+    <script src="app.js"></script>
+    <script src="/shared/shared.module.js"></script>
+    <script src="/shared/config.service.js"></script>
+    <script src="/shared/ssologin/httprequestinterceptor.factory.js"></script>
+    <script src="/shared/ssologin/localtoken.factory.js"></script>
+    <script src="/shared/ssologin/keycloak.service.js"></script>
+    <script src="/shared/ssologin/ssologin.component.js"></script>
+    <script src="/shared/user/user.module.js"></script>
+    <script src="/shared/user/user.service.js"></script>
+  <body>
+  
+      <ssologin></ssologin>    
+  
+  </body>
+</html>
